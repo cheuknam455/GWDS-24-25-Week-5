@@ -14,8 +14,23 @@ header {
     
 }
 
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    text-align: center;
 
+}
+
+.container-navigation {
+    display: flex;
+    flex-wrap: wrap;
+}
 /* section one flex grow and shrink */
+
+ul{
+    list-style-type: none;
+    padding: 5px;
+}
 
 .section-one {
     background-color: blueviolet;
